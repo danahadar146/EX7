@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clicked(View view) {
         int num=random.nextInt(3)+1;
-//
+
         if (num==1){
             btn.setText("1");
             iVMain.setImageResource(R.drawable.cutecat);
